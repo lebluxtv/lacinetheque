@@ -4,7 +4,7 @@ window.LA_CINETHEQUE_CONFIG = {
   serviceName: "La Cinéthèque",
   // URL publique future derrière DuckDNS + Caddy.
   // Exemple : "https://lacinetheque-leblux.duckdns.org"
-  serverUrl: "https://lacinetheque-leblux.duckdns.org",
+  serverUrl: "https://bluxhub.duckdns.org",
   statusEndpoint: "/api/public/status",
   statusTimeoutMs: 5000,
   refreshEveryMs: 30000
