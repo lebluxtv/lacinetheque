@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>La Cinéthèque</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="config.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero-card" aria-live="polite">
+      <div class="brand-block">
+        <div class="logo-mark">LC</div>
+        <div>
+          <p class="eyebrow">Serveur privé</p>
+          <h1>La Cinéthèque</h1>
+        </div>
+      </div>
+
+      <div id="statusBox" class="status-box status-checking">
+        <span id="statusDot" class="status-dot"></span>
+        <div>
+          <strong id="statusTitle">Vérification en cours…</strong>
+          <p id="statusText">On vérifie si le serveur personnel est disponible.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a id="accessButton" class="primary-btn disabled" href="#" aria-disabled="true">Accéder à La Cinéthèque</a>
+        <button id="refreshButton" class="secondary-btn" type="button">Actualiser le statut</button>
+      </div>
+
+      <p class="notice">
+        Cette page sert uniquement de porte d’entrée. Si le serveur est hors ligne, le PC hôte est probablement éteint ou en maintenance.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
